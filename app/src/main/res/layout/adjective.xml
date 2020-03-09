@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/adjectiveLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/adjectiveName"
+        android:text="Name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+
+    <TextView
+        android:id="@+id/adjectiveVery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:padding="2dp"
+        android:text="Very list"
+        android:textColor="@color/colorVery"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/adjectiveName"
+        />
+
+    <TextView
+        android:id="@+id/adjectiveBarely"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/adjectiveName"
+        android:layout_below="@id/adjectiveVery"
+        android:padding="2dp"
+        android:text="Barely list"
+        android:textColor="@color/colorBarely"
+
+        android:textStyle="bold" />
+
+</RelativeLayout>
